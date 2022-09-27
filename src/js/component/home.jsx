@@ -10,10 +10,10 @@ const Home = () => {
 	return (
 		<>
 
-		<Navbar />
-		<Carrousel />
+		
+		
 		<Cards />
-		<Footer />
+		
 
 
 		</>
