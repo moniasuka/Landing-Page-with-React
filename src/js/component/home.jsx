@@ -7,7 +7,9 @@ import {Navbar} from "../component/navbar.jsx";
 //import footer from
 import {Footer} from "../component/footer.jsx";
 //import cards from
-import Cards from "./cards.jsx";
+import Cards from "./cards.jsx"; 
+//import navbar from 
+import {Carousel} from "./carousel.jsx";
 
 
 //create your first component
@@ -16,6 +18,8 @@ const Home = () => {
 		<>
 
 		<Navbar />
+
+		<Carousel/>
 
 		<Cards />
 		
